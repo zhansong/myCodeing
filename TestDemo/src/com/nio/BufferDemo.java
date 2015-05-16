@@ -16,7 +16,7 @@ public class BufferDemo {
 		  while(buf.hasRemaining()){
 		      System.out.print((char) buf.get()); // read 1 byte at a time
 		  }
-		 //这是一个测试
+		 //这是一个测试 
 		  buf.clear(); //make buffer ready for writing
 		  bytesRead = inChannel.read(buf);
 		}
