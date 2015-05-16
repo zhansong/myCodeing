@@ -16,11 +16,10 @@ public class BufferDemo {
 		  while(buf.hasRemaining()){
 		      System.out.print((char) buf.get()); // read 1 byte at a time
 		  }
-		 //this is a test
+		 //
 		  buf.clear(); //make buffer ready for writing
 		  bytesRead = inChannel.read(buf);
 		}
-		buf.clear();
 		aFile.close();
 	}
 }
