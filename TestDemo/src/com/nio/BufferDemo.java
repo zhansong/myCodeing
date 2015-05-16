@@ -20,6 +20,7 @@ public class BufferDemo {
 		  buf.clear(); //make buffer ready for writing
 		  bytesRead = inChannel.read(buf);
 		}
+		buf.clear();
 		aFile.close();
 	}
 }
